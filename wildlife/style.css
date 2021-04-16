@@ -7,7 +7,7 @@
 
 body{
     display: flex;
-    background: url(/assets/OW_SJPoqpqc.jpg);
+    background: url(./assets/OW_SJPoqpqc.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100%;
