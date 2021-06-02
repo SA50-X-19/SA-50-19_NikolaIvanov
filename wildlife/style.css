@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     list-style-type: none;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
+.elems{
     display: flex;
-    background: url(./assets/OW_SJPoqpqc.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100%;
-    justify-content: center;
-    
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
-
 .header{
     display: flex;
     width: 90%;
@@ -75,3 +74,51 @@ body{
     display: flex;
 }
 
+.survival{
+    display: flex;
+    flex-direction: column;
+    width: 1700px;
+    height: 80%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.survival_elems{
+    display: flex;
+    height: 320px;
+    width: 350px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headsurv{
+    
+    font-size: 48px;
+    line-height: 100px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.textsurv{
+    font-size: 18px;
+    width: 340px;
+    letter-spacing: 2px;
+    color: #F7F7F7;
+}
+
+.donatesurv{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #CD6326;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.donatesurv:hover{
+    background-color: #CD6326;
+}
